@@ -362,7 +362,7 @@ class HomePage extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.person),
             onPressed: () {
-              // Navigate to profile page
+              Navigator.pushNamed(context, '/profile');
             },
           ),
         ],

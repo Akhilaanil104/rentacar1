@@ -157,7 +157,7 @@ class OnboardingPage extends StatelessWidget {
                     ElevatedButton(
                       onPressed: () {
                         // Navigate to Home Page
-                        Navigator.pushNamed(context, '/home');
+                        Navigator.pushNamed(context, '/login');
                       },
                       child: Text('Get Started'),
                       style: ElevatedButton.styleFrom(

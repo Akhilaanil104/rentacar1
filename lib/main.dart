@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:stripe_payment_flutter/pages/profile_page.dart';
 import 'firebase_options.dart';
 import 'package:stripe_payment_flutter/pages/home_page.dart';
 import 'package:stripe_payment_flutter/pages/login_page.dart';
@@ -38,17 +39,15 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      initialRoute: '/login',
+      initialRoute: '/',
     routes: {
       
       '/':(context) =>SpalshPage(),
       '/onboard':(Context)=>OnboardingPage(),
       '/login':(Context)=>LoginPage(),
-
-      
-      
       '/register': (context) => RegistrationPage(),
       '/home': (context) => HomePage(),
+      '/profile':(context)=>ProfilePage(),
       
       
       
