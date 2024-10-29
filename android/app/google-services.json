@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426232947168",
+    "project_id": "rentcar2-a792c",
+    "storage_bucket": "rentcar2-a792c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426232947168:android:506f8b23511cae263f8b85",
+        "android_client_info": {
+          "package_name": "com.example.car_rental_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4iQ770U7WRRE2DY2DgTsaTrIthgpStfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426232947168:android:cba97f57d59b787b3f8b85",
+        "android_client_info": {
+          "package_name": "com.example.stripe_payment_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4iQ770U7WRRE2DY2DgTsaTrIthgpStfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
